@@ -13,3 +13,5 @@ if(guest == num):
 else:
 
     print("wrong!")
+
+print("game over")

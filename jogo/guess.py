@@ -1,5 +1,7 @@
+import random
+
 print("welcome")
-numero_secreto = 32
+numero_secreto = random.randrange(1, 100)
 total_de_tentativas = 3
 rodada = 1
 

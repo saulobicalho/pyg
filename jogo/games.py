@@ -1,15 +1,15 @@
-import forca
+import hang
 import guess
 
 print("*********************************")
 print("*******Escolha o seu jogo!*******")
 print("*********************************")
 
-print("(1) Forca (2) guess")
+print("(1) hang (2) guess")
 
 jogo = int(input("Qual jogo? "))
 
 if (jogo == 1):
-    print("Jogando forca")
+    print("Jogando hang")
 elif (jogo == 2):
     print("Jogando guess")

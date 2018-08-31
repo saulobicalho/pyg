@@ -15,6 +15,3 @@ if (jogo == 1):
 elif (jogo == 2):
     print("Jogando guess")
     guess.play()
-
-if (__name__ == "__main__"):
-    escolhe_jogo()

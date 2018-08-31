@@ -11,5 +11,7 @@ jogo = int(input("Qual jogo? "))
 
 if (jogo == 1):
     print("Jogando hang")
+    hang.play()
 elif (jogo == 2):
     print("Jogando guess")
+    guess.play()

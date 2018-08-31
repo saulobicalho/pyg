@@ -1,21 +1,26 @@
 print("welcome")
-num = 32
+numero_secreto = 32
+total_de_tentativas = 3
+rodada = 1
 
-guest_str = input("choose a number")
+while (rodada <= 3):
+    print("Tentativa", rodada, "de", total_de_tentativas)
+    chute_str = input("Digite o seu número: ")
+    print("Você digitou: ", chute_str)
+    chute = int(chute_str)
 
-print("you selected ",guest_str)
+    acertou = numero_secreto == chute
+    maior = chute > numero_secreto
+    menor = chute < numero_secreto
 
-guest = int (guest_str)
+    if (acertou):
+        print("Você acertou!")
+    else:
+        if (maior):
+            print("Você errou! O seu chute foi maior que o número secreto.")
+        elif (menor):
+            print("Você errou! O seu chute foi menor que o número secreto.")
 
-if(guest == num):
+    rodada = rodada + 1
 
-    print("nice!")
-elif(guest>num):
-
-    print("wrong over!")
-
-elif(guest<num):
-
-    print("wrong under")
-
-print("game over")
+print("Fim do jogo")

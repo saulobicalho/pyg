@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b4456e33-bebb-4b53-9e4c-f2910da682ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/games.py" beforeDir="false" afterPath="$PROJECT_DIR$/games.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guess.py" beforeDir="false" afterPath="$PROJECT_DIR$/guess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,14 +32,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="401" />
-          <entry key="txt" value="197" />
+          <entry key="py" value="404" />
+          <entry key="txt" value="205" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="197" />
-          <entry key="Python" value="401" />
+          <entry key="PLAIN_TEXT" value="205" />
+          <entry key="Python" value="404" />
         </counts>
       </usages-collector>
     </session>
@@ -62,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/games.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="84">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -139,7 +138,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.games">
+    <configuration name="games" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jogo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/games.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="guess" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jogo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,8 +181,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.guess" />
+      <item itemvalue="Python.games" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.games" />
         <item itemvalue="Python.guess" />
       </list>
     </recent_temporary>
@@ -297,12 +322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535739954434</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="call fct">
+      <created>1535740015495</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1535740015495</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="5" width="840" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16897856" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -344,7 +375,8 @@
     <MESSAGE value="pts" />
     <MESSAGE value="games file" />
     <MESSAGE value="def funct" />
-    <option name="LAST_COMMIT_MESSAGE" value="def funct" />
+    <MESSAGE value="call fct" />
+    <option name="LAST_COMMIT_MESSAGE" value="call fct" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hang.py">
@@ -366,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/games.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="84">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
